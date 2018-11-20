@@ -17,5 +17,9 @@ public AutowiredUser(String userName, int age, String sex) {
 	this.sex = sex;
 }
 
+@Override
+public String toString() {
+	return "AutowiredUser [userName=" + userName + ", age=" + age + ", sex=" + sex + "]";
+}
    
 }
