@@ -10,10 +10,23 @@ public int getAge() {
 public void setAge(int age) {
 	this.age = age;
 }
+
+
+public String getSex() {
+	return sex;
+}
+public void setSex(String sex) {
+	this.sex = sex;
+}
+public AutowiredUser() {
+	super();
+	// TODO Auto-generated constructor stub
+}
 @Override
 public String toString() {
 	return "AutowiredUser [userName=" + userName + ", age=" + age + ", sex=" + sex + "]";
 }
+
 
    
 }
