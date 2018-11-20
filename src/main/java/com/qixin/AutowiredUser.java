@@ -10,5 +10,12 @@ public int getAge() {
 public void setAge(int age) {
 	this.age = age;
 }
+public AutowiredUser(String userName, int age, String sex) {
+	super();
+	this.userName = userName;
+	this.age = age;
+	this.sex = sex;
+}
+
    
 }
