@@ -21,5 +21,6 @@ public AutowiredUser(String userName, int age, String sex) {
 public String toString() {
 	return "AutowiredUser [userName=" + userName + ", age=" + age + ", sex=" + sex + "]";
 }
+
    
 }
